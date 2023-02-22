@@ -9,9 +9,9 @@ void print_times_table(int n)
 
 	if (n >= 0 && n <= 15)
 	{
-		for (m = 0; m < n; m++)
+		for (m = 0; m <= n; m++)
 		{
-			for (l = 0; l < n; l++)
+			for (l = 0; l <= n; l++)
 			{
 				k = l * m;
 				if (l == 0)
