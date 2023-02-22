@@ -20,7 +20,7 @@ void print_to_98(int n)
 			}
 
 			if (m == 98)
-				printf("%d\n", i);
+				printf("%d\n", m);
 
 			m++;
 		}
